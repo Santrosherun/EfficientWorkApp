@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
         listView.onItemClickListener = object : AdapterView.OnItemClickListener {
             override fun onItemClick(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-                Toast.makeText(applicationContext, position.toString(), Toast.LENGTH_LONG).show()
+                Toast.makeText(applicationContext, position.toString(), Toast.LENGTH_LONG).show() //Looks like is a way to send a message though the app
             }
 
         }
